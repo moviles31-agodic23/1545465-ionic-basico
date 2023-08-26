@@ -1,0 +1,50 @@
+section {
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+section div {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.head,.superior,.inferior{
+    margin-bottom: 5%;
+}
+
+.head, .inferior{
+    text-align: center;
+}
+
+.superior div, .precioTotal p, .producto p {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.superior input {
+    width: 50%;
+    margin-bottom: 2%;
+    background-color: #D9D9D9;
+}
+
+.superior button {
+    display: block;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#620D4F;
+    border-radius: 10px;
+    color: white;
+    width: 100%;
+}
+
+.inferior {
+    margin-top: 10%;
+    border-bottom: solid;
+}
+
+.inferior div {
+    width: 100%;
+}
