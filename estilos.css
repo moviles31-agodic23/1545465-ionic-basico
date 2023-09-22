@@ -29,12 +29,12 @@ section div {
     background-color: #D9D9D9;
 }
 
-.superior button {
+.superior ion-button {
     display: block;
     margin-top: 10%;
     margin-left: auto;
     margin-right: auto;
-    background-color:#620D4F;
+    --background: #620D4F;
     border-radius: 10px;
     color: white;
     width: 100%;

@@ -5,9 +5,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="estilos.css">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
 </head>
 <body>
-<section>
+
+      <ion-content class="ion-padding">
+    
+        <ion-grid>
+            <ion-row> 
+               <ion-col size="12">
+                    <div class="head">
+                        <h3>==== TICKET DE COMPRA ====</h1>
+                    </div>
+                </ion-col>
+            </ion-row>
+            
+            <ion-row>
+                <ion-col size="6" offset="3">
+                    <div class="superior">
+                        <div>
+                            <ion-input label="Artículo" id="articulo"></ion-input>
+                        </div>
+                        <div>
+                            <ion-input label="Precio" id="precio"></ion-input>
+                        </div>
+                        <ion-toolbar>
+                            <ion-button class="calcTot">Calcular Total</ion-button>
+                        </ion-toolbar>
+                    </div>
+                </ion-col>
+            </ion-grid>
+    
+            <ion-row>
+
+            </ion-row>
+    
+            <ion-row>
+                <ion-col size="6" offset="3">
+                    <div class="inferior">
+                        ======= TU TICKET ==========
+                    </div>
+                    <div class="precioTotal">
+                        <p class="total">Total <span>$ <span class="precioFinal">0</span></span></p>
+                    </div>
+            
+                </ion-col>
+                
+            </ion-row>
+        </ion-grid>
+
+        <ion-footer>
+            <ion-toolbar>
+                Footer
+            </ion-toolbar>
+          </ion-footer>
+      </ion-content>
+
+ 
+
+<!-- <section>
     <div class="head">
         <h3>==== TICKET DE COMPRA ====</h1>
     </div>
@@ -23,7 +81,7 @@
         <p class="total">Total <span>$ <span class="precioFinal">0</span></span></p>
     </div>
 </section>
-
+ -->
 <script type="text/javascript" src="index.js"></script>
 </body>
 </html>
